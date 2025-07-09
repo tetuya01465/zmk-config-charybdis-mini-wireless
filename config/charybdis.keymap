@@ -120,9 +120,9 @@
 
         BASE {
             bindings = <
-&kp TAB               &kp Q  &kp W  &kp E                      &kp R             &kp T    &kp Y                    &kp U                  &kp I      &kp O    &kp P          &kp BSPC
-&kp LEFT_WIN          &kp A  &kp S  &kp D                      &kp F             &kp G    &kp H                    &kp J                  &kp K      &kp L    &kp SEMICOLON  &kp APOS
-&u_mt LEFT_SHIFT ESC  &kp Z  &kp X  &kp C                      &kp V             &kp B    &kp N                    &kp M                  &kp COMMA  &kp DOT  &kp FSLH       &mo 5
+&kp TAB               &kp Q  &kp W  &kp E                      &kp R             &kp T    &kp Y                    &kp U                  &kp I      &kp O    &kp P                        &kp BSPC
+&kp LEFT_WIN          &kp A  &kp S  &kp D                      &kp F             &kp G    &kp H                    &kp J                  &kp K      &kp L    &u_mt RIGHT_SHIFT SEMICOLON  &kp APOS
+&u_mt LEFT_SHIFT ESC  &kp Z  &kp X  &kp C                      &kp V             &kp B    &kp N                    &kp M                  &kp COMMA  &kp DOT  &kp FSLH                     &mo 5
                                     &u_mt LEFT_SHIFT LEFT_ALT  &kp LEFT_CONTROL  &mo 1    &u_mt LEFT_SHIFT RETURN  &u_mt BACKSPACE SPACE
             >;
         };
