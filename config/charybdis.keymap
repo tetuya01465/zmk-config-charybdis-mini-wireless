@@ -13,7 +13,7 @@
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
-        input-processors = <&zip_xy_scaler 2 4>, <&zip_temp_layer 4 400>;
+        input-processors = <&zip_xy_scaler 4 4>, <&zip_temp_layer 4 400>;
 
         // Switch to auto-mouse temp layer, decrease sensitivity
 
