@@ -9,6 +9,10 @@
 
 #define U_TAPPING_TERM 200
 
+&zip_temp_layer {
+    require-prior-idle-ms = <200>;
+};
+
 / {
     trackball_listener {
         compatible = "zmk,input-listener";
