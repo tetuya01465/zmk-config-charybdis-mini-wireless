@@ -140,10 +140,10 @@
 
         SYMNUM {
             bindings = <
-&bt BT_CLR      &bt BT_NXT    &bt BT_PRV   &none   &none   &none     &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
-&studio_unlock  &trans        &none        &none   &trans  &trans    &kp UNDER  &u_mt RIGHT_SHIFT EQUAL  &u_mt RCTRL LBKT  &u_mt RIGHT_ALT RBKT  &u_mt RIGHT_GUI BSLH  &kp GRAVE
-&trans          &out OUT_TOG  &bootloader  &trans  &trans  &trans    &kp MINUS  &kp PLUS                 &kp LBRC          &kp RBRC              &kp PIPE              &kp TILDE
-                                           &trans  &trans  &mo 3     &trans     &trans
+&bt BT_CLR      &none         &none        &none   &none   &bt BT_SEL 0    &kp CARET  &kp AMPS                 &kp KP_MULTIPLY   &kp LPAR              &kp RPAR              &kp DEL
+&studio_unlock  &trans        &none        &none   &trans  &bt BT_SEL 1    &kp UNDER  &u_mt RIGHT_SHIFT EQUAL  &u_mt RCTRL LBKT  &u_mt RIGHT_ALT RBKT  &u_mt RIGHT_GUI BSLH  &kp GRAVE
+&trans          &out OUT_TOG  &bootloader  &trans  &trans  &bt BT_SEL 2    &kp MINUS  &kp PLUS                 &kp LBRC          &kp RBRC              &kp PIPE              &kp TILDE
+                                           &trans  &trans  &mo 3           &trans     &trans
             >;
         };
 
