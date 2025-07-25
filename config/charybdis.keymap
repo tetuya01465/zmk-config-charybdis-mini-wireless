@@ -122,19 +122,19 @@
 
         BASE {
             bindings = <
-&kp TAB               &kp Q  &kp W  &kp E         &kp R             &kp T    &kp Y                    &kp U                  &kp I      &kp O    &kp P                        &kp BSPC
-&kp LEFT_WIN          &kp A  &kp S  &kp D         &kp F             &kp G    &kp H                    &kp J                  &kp K      &kp L    &u_mt RIGHT_SHIFT SEMICOLON  &kp APOS
-&u_mt LEFT_SHIFT ESC  &kp Z  &kp X  &kp C         &kp V             &kp B    &kp N                    &kp M                  &kp COMMA  &kp DOT  &kp FSLH                     &mo 5
-                                    &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 1    &u_mt LEFT_SHIFT RETURN  &u_mt BACKSPACE SPACE
+&kp TAB               &kp Q  &kp W  &kp E         &kp R             &kp T    &kp Y                    &kp U      &kp I      &kp O    &kp P                        &kp BSPC
+&kp LEFT_WIN          &kp A  &kp S  &kp D         &kp F             &kp G    &kp H                    &kp J      &kp K      &kp L    &u_mt RIGHT_SHIFT SEMICOLON  &kp APOS
+&u_mt LEFT_SHIFT ESC  &kp Z  &kp X  &kp C         &kp V             &kp B    &kp N                    &kp M      &kp COMMA  &kp DOT  &kp FSLH                     &mo 5
+                                    &kp LEFT_ALT  &kp LEFT_CONTROL  &mo 1    &u_mt LEFT_SHIFT RETURN  &kp SPACE
             >;
         };
 
         NAV {
             bindings = <
-&trans  &kp N1                &kp N2          &kp N3     &kp N4     &kp N5       &none        &kp PG_UP         &kp UP             &kp PG_DN  &kp LEFT_PARENTHESIS   &kp DEL
-&trans  &kp N6                &kp N7          &kp N8     &kp N9     &kp N0       &kp HOME     &kp LEFT          &kp DOWN           &kp RIGHT  &kp RIGHT_PARENTHESIS  &trans
-&trans  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))  &kp GRAVE  &kp MINUS  &kp EQUAL    &kp END      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &kp BACKSLASH          &trans
-                                              &trans     &trans     &trans       &lt 2 ENTER  &trans
+&trans  &kp N1                &kp N2          &kp N3     &kp N4     &kp N5       &none     &kp PG_UP         &kp UP             &kp PG_DN  &kp LEFT_PARENTHESIS   &kp DEL
+&trans  &kp N6                &kp N7          &kp N8     &kp N9     &kp N0       &kp HOME  &kp LEFT          &kp DOWN           &kp RIGHT  &kp RIGHT_PARENTHESIS  &trans
+&trans  &kp LS(LC(NUMBER_4))  &kp LS(LC(N5))  &kp GRAVE  &kp MINUS  &kp EQUAL    &kp END   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans     &kp BACKSLASH          &trans
+                                              &trans     &trans     &trans       &trans    &mo 2
             >;
         };
 
