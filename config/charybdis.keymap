@@ -85,6 +85,11 @@
             bindings = <&caps_word>;
             key-positions = <17 18>;
         };
+
+        to_default {
+            bindings = <&to 0>;
+            key-positions = <0 11>;
+        };
     };
 
     behaviors {
@@ -171,6 +176,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans
+            >;
+        };
+
+        oonishi {
+            bindings = <
+&kp TAB              &kp Q  &kp L  &kp U     &kp COMMA  &kp DOT      &kp F                   &kp W      &kp R  &kp Y  &kp P  &kp BSPC
+&kp LGUI             &kp E  &kp I  &kp A     &kp O      &kp MINUS    &kp K                   &kp T      &kp N  &kp S  &kp H  &kp APOS
+&u_mt LSHIFT ESCAPE  &kp Z  &kp X  &kp C     &kp V      &kp SEMI     &kp G                   &kp D      &kp M  &kp J  &kp B  &kp FSLH
+                                   &kp LALT  &kp LCTRL  &mo 1        &u_mt LEFT_SHIFT ENTER  &kp SPACE
             >;
         };
     };
